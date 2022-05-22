@@ -1,0 +1,44 @@
+body
+{
+    font-family: 'Permanent', cursive;
+    background-color: #333;
+    text-align: center;
+}
+.cell{
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 60px;
+    cursor: pointer;
+}
+#cellContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+#game{ 
+    border: 3px solid brown;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: lightgray;
+    color: #222;
+} 
+.shadow1{
+    box-shadow: 5px 4px 7px  brown !important;
+
+}
+.shadow2{
+    box-shadow: 4px 4px 7px  rgb(58, 209, 58) !important;
+    border: 3px solid rgb(58, 209, 58) !important;
+
+
+}
+.shadow3{
+    box-shadow: 4px 4px 7px  orange !important;
+    border: 3px solid orange !important;
+
+
+}
+
+
